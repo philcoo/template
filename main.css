@@ -1,0 +1,184 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url(images/backg1.jpg);
+  background-size: cover;
+ width: 100%;
+
+
+}
+/*nav styling, border*/
+nav{
+  background: teal;
+  padding: 25px;
+  font-size: 30px;
+  margin-top: 25px;
+}
+nav a{
+  background-color: gray;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+}
+
+nav span{
+  color: green;
+  background-color: black !important;
+  border: solid 2px;
+  padding: 55px;
+  margin-right: 15px;
+}
+nav a:hover{
+  color: white;
+  transition: all 3s ease;
+		border: 1px solid red;
+    background-color: inherit;
+}
+.wrp{
+width: 50%;
+margin-left: 450px;
+  border: #008db1 solid 5px;
+ height: 700px;
+  background-image: url(images/menub.jpg);
+
+}
+.wrp img{
+  margin-top: 25px;
+  height: 305px;
+}
+
+.wrp a{
+
+  background-color: teal ;
+  width: 245px;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px;
+  font-size: 24px;
+  font-weight: bold;
+
+}
+.wrp h1{
+text-align: center;
+font-family: fantasy;
+font-weight: bold;
+font-size: 55px;
+margin: 25px;
+}
+.w3-button {
+float: right;
+}
+/*slide show css only*/
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 9.5s;
+  animation-name: fade;
+  animation-duration: 9.5s;
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+/*slide end here*/
+
+#footer{
+  margin-top:25px;
+  margin-bottom: 0;
+  text-align: center;
+  background-image: url(images/menub.jpg);
+}
+#footer img{
+  background-color: black;
+  height: 105px;
+  padding: 25px;
+display: inline-block;
+}
+#footer a{
+position: relative;
+  font-size: 24px;
+}
+
+/*menu css format of the cards*/
+ .wrpmenu{
+   background-image: url(images/backg3.jpg);
+   border: 1px solid red;
+   align-items: center;
+   margin: 85px;
+ }
+ .wrpmenu nav{
+   margin-bottom: 15px;
+   background-color:black;
+   padding: 45px;
+
+ }
+.cards{
+  padding: 25px;
+  background-color: teal;
+  display: inline-block;
+  margin-left: 245px;
+  border: 1px solid white;
+}
+  .title {
+   background: white
+   color: teal;
+   position: relative;
+   padding: 25px;
+   float: inherit;
+   border: solid 1px;
+   margin: 10px;
+ }
+.title h3{
+  background-color: white;
+  padding: 15px;
+  text-align: center;
+ text-transform: uppercase;
+margin-bottom: 18px;
+margin-top: 18px;
+margin-right: 95px;
+}
+ .cards img{
+   height: 105px;.
+ }

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <nav>
+      <span id="logo">
+        <a href="#">Phil Grill</a>
+      </span>
+      <a href="#">Memu</a>
+      <a href="#">Catering</a>
+
+      <a href="#">About</a>
+      <a href="#">Locations</a>
+    </nav>
+
+    <div class="wrp">
+      <h1>Restaurant Name </h1>
+      <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="images/special1.jpg" style="width:100%">
+  <div class="text">  <a href="menu.html">  ORDER NOW</a></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="images/fish1.jpg" style="width:100%">
+
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="images/pork.jpg" style="width:100%">
+  <div class="text">  <a href="menu.html">  CALL NOW</a>
+  </div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+
+        <a href="menu.html">  ORDER NOW</a>
+    </div>
+
+<div id="footer">
+          <a href="menu"><h4>ORDER NOW</h4></a>
+          <div class="pic">
+            <img src="images/plant.jpg" alt="">
+           <a href="#">Catering</a>
+           <img src="images/plant.jpg" alt="">
+           <a href="#">About</a>
+           <img src="images/plant.jpg" alt="">
+           <a href="#">Locations</a>
+
+          </div>
+
+      </div>
+
+
+    <script>
+    var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+    </script>
+  </body>
+</html>
